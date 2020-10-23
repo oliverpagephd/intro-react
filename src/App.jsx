@@ -67,16 +67,16 @@ this.setstate({
 
     /* Change below to render students*/
 
-    /*if (this.state.buttonClicked === "students") {
+    if (this.state.buttonClicked === "students") {
       tabChoice = (
-        <List
-          placeholder="Add Assignment..." 
-          currList={this.state.assignments}
-          addFunction={this.addAssignment}
+        <List 
+          placeholder="Add Students..." 
+          currList={this.state.students}
+          addFunction={this.addStudent}
           title="Student Roster"
         />
       );
-    }*/
+    }
 
     /* Uncomment lines below to render grades*/
     /*if (this.state.buttonClicked === "grades") {
