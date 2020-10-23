@@ -16,6 +16,7 @@ class List extends React.Component {
   }
 
   handleSubmit(event) {
+    event.preventDefault()
     this.setState({
       value: ""
     });
